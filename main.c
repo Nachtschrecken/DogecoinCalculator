@@ -147,6 +147,7 @@ int update() {
 
 
 void hello() {
+    loadDoges();
     printf("\nHello, you are currently hodling DOGE%.2f\n", ferrisWallet.amount);
     YER:
     printf("\nWhat do you want to do?\n"
